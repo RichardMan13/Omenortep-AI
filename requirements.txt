@@ -5,9 +5,17 @@ python-dotenv
 pandas
 typing-extensions
 
-# --- MLOps e Tracking ---
+# --- MLOps, Tracking e Fine-Tuning ---
 mlflow
 dagshub
+unsloth
+trl
+peft
+bitsandbytes
+scipy
+ninja
+packaging
+psutil
 
 # --- Extração e OCR ---
 pytesseract

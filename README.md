@@ -168,7 +168,7 @@ Como definido no `GEMINI.md`, todo desenvolvimento deve seguir:
 - [x] Separar dataset de treino (80) e benchmark (20) em `/data/processed/training_data.jsonl`.
 
 ### 2. Fine-Tuning & Tracking (Fase 2, 3 & 6)
-- [ ] Configurar conta no **DagsHub** e obter as credenciais do MLflow.
+- [x] Configurar conta no **DagsHub** e obter as credenciais do MLflow.
 - [ ] Configurar ambiente no Google Colab com Unsloth e MLflow.
 - [ ] Realizar o treinamento com a nomenclatura `v1.0-Phi3-Basic`.
 - [ ] Exportar arquivo `.gguf` para o MLflow Artifacts no DagsHub.

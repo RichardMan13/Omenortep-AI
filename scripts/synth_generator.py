@@ -44,12 +44,13 @@ class OmenortepSynthGenerator:
         {content}
 
         DIRETRIZES:
-        1. A 'instruction' deve ser um comando técnico ou pergunta profissional.
-        2. A 'output' deve ser uma resposta técnica, rica em jargões do setor (upstream, bacias, extração, etc).
-        3. Formato de Saída (JSON VÁLIDO):
+        1. A 'instruction' deve ser um comando técnico ou pergunta profissional que possa ser respondida sem o texto original presente.
+        2. O campo 'input' deve ser SEMPRE uma string vazia "".
+        3. A 'output' deve ser uma resposta técnica, exata e rica em jargões do setor.
+        4. Formato de Saída (JSON VÁLIDO):
         {{
             "instructions": [
-                {{"instruction": "...", "input": "{source}", "output": "..."}},
+                {{"instruction": "...", "input": "", "output": "..."}},
                 ...
             ]
         }}
