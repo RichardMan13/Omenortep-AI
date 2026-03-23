@@ -1,0 +1,31 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# --- Core e Ambiente ---
+python-dotenv
+pandas
+typing-extensions
+
+# --- MLOps e Tracking ---
+mlflow
+dagshub
+
+# --- Extração e OCR ---
+pytesseract
+docling
+pypdf
+openai
+huggingface_hub[hf_xet]
+
+# --- Métricas e Monitoramento ---
+evidently
+rouge-score
+bert-score
+nltk
+scikit-learn
+scipy
+
+# --- Utilitários de DL (Aceleração CUDA p/ GTX 1650 4GB) ---
+torch
+torchvision
+transformers
+accelerate

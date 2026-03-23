@@ -1,0 +1,102 @@
+[
+    {
+        "instruction": "Em que medida o setor de O&G contribui para a estabilidade econômica e social?",
+        "input": "importancia-do-setor-de-og-para-as-contas-publicas-2025-final.pdf",
+        "output": "O setor de O&G é um vetor de estabilidade econômica e social, com receitas financiando políticas públicas essenciais e promovendo a segurança fiscal, além de incentivar investimentos e geração de empregos em escala nacional."
+    },
+    {
+        "instruction": "Aborde a composição do orçamento federal de áreas finalísticas.",
+        "input": "importancia-do-setor-de-og-para-as-contas-publicas-2025-final.pdf",
+        "output": "O orçamento federal para áreas finalísticas em 2023 somou R$1,91 trilhões, com prioridades em Previdência (50,1%), Assistência Social (14%), Saúde (9,6%), e Educação (8%), reforçando o impacto da arrecadação de O&G nessas áreas."
+    },
+    {
+        "instruction": "Quais medidas as empresas de petróleo e gás estão tomando para reduzir suas emissões?",
+        "input": "Panorama_Geral_do_Setor_de_Óleo_e_Gás_2026.pdf",
+        "output": "As empresas estão diversificando investimentos para tecnologias de baixo carbono, implementando práticas eficientes e sustentáveis, e adotando medidas de captura e armazenamento de carbono para minimizar suas pegadas de carbono."
+    },
+    {
+        "instruction": "Quais desafios regulatórios o Brasil enfrenta no desenvolvimento da eólica offshore?",
+        "input": "13-a-eolicas-offshore-no-brasil-portugues.pdf",
+        "output": "Os desafios incluem a consolidação de um marco regulatório claro, definição de processos licitatórios seguros e questões relacionadas a investimentos em infraestrutura e cadeia de suprimentos."
+    },
+    {
+        "instruction": "Como o contexto macroeconômico do Brasil influencia os investimentos em infraestrutura de O&G?",
+        "input": "Panorama_dos_investimentos_em_infraestrutura_de_dutos_e_logística_no_setor_de_OG_no_Brasil.pdf",
+        "output": "O contexto macroeconômico, incluindo variáveis econômicas e regulamentares, exerce uma influência significativa sobre os investimentos em infraestrutura. A estabilidade econômica e políticas fiscais adequadas são necessárias para superar obstáculos e facilitar o fluxo de capital para o setor de O&G."
+    },
+    {
+        "instruction": "Descreva a importância da infraestrutura para a Indústria de Óleo e Gás no Brasil.",
+        "input": "Panorama_dos_investimentos_em_infraestrutura_de_dutos_e_logística_no_setor_de_OG_no_Brasil.pdf",
+        "output": "A infraestrutura é crucial para suportar as atividades econômico-produtivas, especialmente no setor de óleo e gás (O&G) do Brasil. Ela viabiliza o armazenamento e movimentação de insumos, equipamentos e produtos, aumentando a eficiência produtiva e reduzindo custos de transporte. Infraestruturas específicas, como plantas industriais e de logística, são imprescindíveis para exploração, produção e transporte de hidrocarbonetos."
+    },
+    {
+        "instruction": "Qual a capacidade global de energia eólica offshore após 2021?",
+        "input": "13-a-eolicas-offshore-no-brasil-portugues.pdf",
+        "output": "Após 2021, a capacidade global de energia eólica offshore aumentou para 75,2 GW, com 10,8 GW conectados à rede naquele ano."
+    },
+    {
+        "instruction": "Descreva a contribuição do setor de O&G na matriz energética global.",
+        "input": "Panorama_dos_investimentos_em_infraestrutura_de_dutos_e_logística_no_setor_de_OG_no_Brasil.pdf",
+        "output": "O setor de O&G é crucial para o abastecimento energético global, respondendo por 53,3% do suprimento de energia mundial. Essa relevância sublinha a necessidade de investimentos contínuos em infraestrutura para garantir a exploração e produção eficiente desses recursos críticos."
+    },
+    {
+        "instruction": "Quais melhorias regulatórias o Brasil adotou para projetos de eólica offshore?",
+        "input": "13-a-eolicas-offshore-no-brasil-portugues.pdf",
+        "output": "O Brasil introduziu diretrizes e um termo de referência para projetos de eólica offshore e sancionou a Lei nº 15.097/2025, que informam o marco regulatório do setor."
+    },
+    {
+        "instruction": "Quais são as premissas para concretizar oportunidades na indústria de petróleo e gás do Brasil?",
+        "input": "Panorama_Geral_do_Setor_de_Óleo_e_Gás_2026.pdf",
+        "output": "Para concretizar as oportunidades associadas à cadeia de petróleo e gás, é necessário um ambiente de negócios que proporcione segurança jurídica, simplificação tributária, liberdade de precificação, incentivo à competição e multiplicidade de agentes."
+    },
+    {
+        "instruction": "Analise a importância dos planos nacionais de investimentos de longo prazo para a infraestrutura de O&G.",
+        "input": "Panorama_dos_investimentos_em_infraestrutura_de_dutos_e_logística_no_setor_de_OG_no_Brasil.pdf",
+        "output": "Planos nacionais de investimentos de longo prazo são essenciais para mapear o futuro crescimento do setor de O&G, garantir a adequação e expansão da infraestrutura necessária e atrair investimentos consistentes, assegurando o desenvolvimento sustentável e a segurança energética do país."
+    },
+    {
+        "instruction": "Qual contribuição a experiência do setor de O&G pode oferecer para a logística de eólicas offshore?",
+        "input": "13-a-eolicas-offshore-no-brasil-portugues.pdf",
+        "output": "A experiência do setor de O&G em operações marítimas pode contribuir com ativos de manutenção compartilhada, uso de embarcações, e infraestrutura portuária, o que otimiza logística e operação na eólica offshore."
+    },
+    {
+        "instruction": "Como a estabilidade regulatória influencia os investimentos em infraestrutura de O&G?",
+        "input": "Panorama_dos_investimentos_em_infraestrutura_de_dutos_e_logística_no_setor_de_OG_no_Brasil.pdf",
+        "output": "A estabilidade regulatória é fundamental para proporcionar um ambiente seguro para investidores, garantindo que as regras do jogo não mudem abruptamente. Isso é essencial para atrair investimentos consideráveis e de longo prazo, necessários para a expansão da infraestrutura de O&G."
+    },
+    {
+        "instruction": "Detalhe os desafios logísticos enfrentados pela indústria de O&G no Brasil.",
+        "input": "Panorama_dos_investimentos_em_infraestrutura_de_dutos_e_logística_no_setor_de_OG_no_Brasil.pdf",
+        "output": "Os desafios logísticos incluem a necessidade de expandir e modernizar a infraestrutura existente, integrar diferentes modais de transporte, e superar obstáculos econômicos e regulatórios que possam atrasar ou inibir investimentos essenciais para aumentar a eficiência e capacidade de movimentação de hidrocarbonetos."
+    },
+    {
+        "instruction": "Qual foi a primeira área de produção de hidrocarbonetos em larga escala no Brasil?",
+        "input": "Panorama_dos_investimentos_em_infraestrutura_de_dutos_e_logística_no_setor_de_OG_no_Brasil.pdf",
+        "output": "A Bacia de Campos, no estado do Rio de Janeiro, foi a primeira área onde a produção de hidrocarbonetos se desenvolveu em larga escala no Brasil, estabelecendo a base para o crescimento da infraestrutura de O&G no país."
+    },
+    {
+        "instruction": "Como a exploração do pré-sal impactou a arrecadação em 2022?",
+        "input": "importancia-do-setor-de-og-para-as-contas-publicas-2025-final.pdf",
+        "output": "Em 2022, a exploração do pré-sal, especialmente com a produção de 840,6 milhões de barris de petróleo, juntamente com o aumento do preço do barril, elevou a arrecadação a níveis recordes para o setor de óleo e gás no Brasil."
+    },
+    {
+        "instruction": "Detalhe o efeito da arrecadação do ICMS sobre os orçamentos estaduais.",
+        "input": "importancia-do-setor-de-og-para-as-contas-publicas-2025-final.pdf",
+        "output": "Com R$116 bilhões arrecadados em 2023, o ICMS constitui uma das principais receitas estaduais, sustentando orçamentos e permitindo a aplicação de recursos em áreas essenciais como infraestrutura, folha de pagamento e serviço da dívida."
+    },
+    {
+        "instruction": "Identifique os fatores que tornam o Brasil um exportador líquido de petróleo.",
+        "input": "Panorama_Geral_do_Setor_de_Óleo_e_Gás_2026.pdf",
+        "output": "Fatores incluem a produção excedente em relação ao consumo, a alta competitividade e abertura de mercado que incentivaram a produção local, além de uma infraestrutura de refino e logística eficiente para exportar os excedentes."
+    },
+    {
+        "instruction": "Explique a importância do setor de petróleo e gás para o PIB industrial do Brasil.",
+        "input": "Panorama_Geral_do_Setor_de_Óleo_e_Gás_2026.pdf",
+        "output": "O setor de petróleo e gás representa 17% do PIB industrial do Brasil. Este setor atrai investimentos significativos e gera milhares de empregos, contribuindo diretamente para o crescimento econômico do país."
+    },
+    {
+        "instruction": "Qual o impacto da arrecadação de royalties e PE no orçamento finalístico estadual?",
+        "input": "importancia-do-setor-de-og-para-as-contas-publicas-2025-final.pdf",
+        "output": "Royalties e PEs representam, em média, 6% dos orçamentos estaduais, influenciando diretamente o financiamento de áreas estratégicas como saúde, educação e segurança pública, destacando-se como vital para a manutenção de políticas públicas essenciais."
+    }
+]
