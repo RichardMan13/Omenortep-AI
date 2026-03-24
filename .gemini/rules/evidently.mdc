@@ -1,0 +1,88 @@
+---
+description: Advanced rules for ML/LLM evaluation and data engineering workflows using Evidently, aligned with modern Python and Transformers standards.
+globs: ["**/*.py", "**/monitoring/**", "**/evals/**", "**/pipelines/**", "**/dbt/**"]
+---
+
+# Evidently Framework: Engineering & Science Standards
+
+As an expert Data Engineer and Scientist[cite: 1], apply these integrated standards to ensure robust, observable, and maintainable data products. This configuration enforces a "Test-First" and "Monitor-Always" culture.
+
+---
+
+## 1. Core Workflow: Research → Plan → Build
+
+Before any file modification or code generation, the Agent **MUST** follow this sequence:
+
+1.  **Research:** Use grep or semantic search to map dependencies, existing data schemas, and pipeline entry points.
+2.  **Clarify:** Ask the user about ambiguous requirements, specific column types, or potential edge cases (e.g., handling cold-start for reference data).
+3.  **Plan:** Outline the implementation plan, including specific file paths, new unit tests, and the chosen Evidently metrics.
+4.  **Build:** Implement the logic only after the Plan is approved.
+
+---
+
+## 2. Architectural & Quality Guardrails
+
+### 🏛️ Pythonic Principles
+* [cite_start]**Comparative Analysis:** Never run an evaluation on a single dataset[cite: 3]. [cite_start]Always compare `current_data` against a `reference_data` baseline to detect drift[cite: 4].
+* **Orchestration Integrity:** For **Prefect/Airflow** pipelines, Evidently must act as a "Circuit Breaker"[cite: 5]. If a `TestSuite` fails, the pipeline must halt before downstream ingestion[cite: 6].
+* [cite_start]**Code Style:** All evaluation scripts must strictly follow PEP 8[cite: 22]. Use 4 spaces for indentation and 88-character line limits.
+* **Type Hinting:** Mandatory for all custom evaluation functions. Use `from __future__ import annotations` for forward references.
+
+---
+
+## 3. Implementation Standards
+
+### Production Data Engineering & Drift
+* [cite_start]**Schema-First Mapping:** Always utilize `DataDefinition` to map `target`, `prediction`, and `datetime` columns[cite: 7]. [cite_start]Avoid hardcoding column indices[cite: 12].
+* [cite_start]**Data Stability:** Implement `DataQualityTestPreset` to validate schema integrity, checking for nulls and duplicates before model inference[cite: 20].
+* **Drift Detection:** Monitor for distribution shifts using `DataDriftPreset`.
+    * **Stable:** $PSI < 0.10$
+    * **Action Required:** $PSI > 0.25$
+* [cite_start]**Efficiency:** For datasets >1GB, **stratified sampling** is mandatory to prevent OOM errors[cite: 14].
+
+### LLM & Generative AI (Xetroc/Omenortep-AI)
+* [cite_start]**Model-as-a-Judge:** Use `descriptors` with specific `alias` names for clear dashboarding[cite: 16].
+* **Correctness:** Use `CorrectnessLLMEval` to compare outputs against a "Golden Dataset".
+* **Safety & Privacy:** Use `PIILLMEval` and `ToxicityLLMEval` to scan outputs for sensitive data (PII) or harmful content.
+* **Standardized Inference:** Prioritize `transformers.pipeline` when using Hugging Face models for evaluation[cite: 17].
+
+---
+
+## 4. Security & Environment Lockdown
+
+* **Hardcoded Secrets:** **PROHIBITED**. All keys/tokens must stay in `.env`.
+* **Secret Scanning:** Use regex or Evidently `Contains` descriptors to audit code for patterns like `sk-`, `Bearer`, or `secret` before any commit.
+* **Error Disclosure:** Catch exceptions explicitly. **Never** use `try-except pass`. Ensure error messages do not leak stack traces or internal DB schemas to the end-user.
+
+---
+
+## 5. Success Metrics & Patterns
+
+### 📊 Performance Targets
+| Metric | Target / Threshold |
+| :--- | :--- |
+| **Test Pass Rate** | $100\%$ before final delivery |
+| **Code Duplication** | $\leq 12\%$ |
+| **LLM Correctness** | Label must be `CORRECT` for all ground-truth tests |
+| **Data Drift** | $PSI < 0.10$ (No alert) |
+
+### 🚫 Anti-Patterns (Negative Examples)
+> **Case 1: Implementation before Test**
+> ```python
+> def calculate_roi(investment, return_val):
+>     return return_val / investment # No validation, no test file created first.
+> ```
+> **Case 2: Hardcoded API Keys**
+> ```python
+> client = APIClient(api_key="sk-1234567890abcdef") # Security violation.
+> ```
+
+### ✅ Best Practices (Positive Examples)
+1. **Create `tests/test_roi.py` first.**
+2. **Implement with validation:**
+```python
+def calculate_roi(investment: float, return_val: float) -> float:
+    if investment <= 0:
+        raise ValueError("Investment must be positive")
+    return return_val / investment
+3. Add Evidently monitoring: Integrate ColumnSummaryMetric for distribution monitoring.

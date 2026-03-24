@@ -28,6 +28,7 @@ huggingface_hub[hf_xet]
 evidently
 rouge-score
 bert-score
+sentence-transformers
 nltk
 scikit-learn
 scipy

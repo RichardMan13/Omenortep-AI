@@ -207,6 +207,26 @@ marimo/_lsp/
 __marimo__/
 
 # Omenortep-AI Specific
+
+# Dados brutos — PDFs proprietarios e manuais tecnicos
 data/raw/
-models/
+
+# Dados processados — JSONL pesados e potencialmente proprietarios
+data/processed/
+
+# Resultados de benchmark gerados em runtime
+data/benchmark_results.csv
+
+# Modelos — ignorar apenas binarios pesados, rastrear o Modelfile
+models/*.gguf
+models/GGUF-Export/
+models/GGUF-Export_gguf/
+
+# Arquivos GGUF (binarios de modelo quantizado — tamanho > 2GB)
+*.gguf
+
+# Relatorios HTML do Evidently AI (gerados em runtime, ~3-4MB cada)
+reports/*.html
+
+# Logs de feedback de usuarios (dados operacionais)
 feedback/
